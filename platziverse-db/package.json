@@ -4,7 +4,7 @@
   "description": "Simple IOT Plarfotm - db-module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "DEBUG=platziverse:* node setup.js",
     "lint": "standard",
     "lintfix": "standard --fix"
   },
@@ -22,7 +22,9 @@
     "standard": "^11.0.1"
   },
   "dependencies": {
+    "chalk": "^2.3.2",
     "debug": "^3.1.0",
+    "inquirer": "^5.2.0",
     "pg": "^7.4.1",
     "pg-hstore": "^2.3.2",
     "sequelize": "^4.37.4"
