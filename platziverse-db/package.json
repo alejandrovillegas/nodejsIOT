@@ -1,0 +1,30 @@
+{
+  "name": "platziverse-db",
+  "version": "1.0.0",
+  "description": "Simple IOT Plarfotm - db-module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard",
+    "lintfix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandrovillegas/nodejsIOT.git"
+  },
+  "author": "Alejo Villegas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alejandrovillegas/nodejsIOT/issues"
+  },
+  "homepage": "https://github.com/alejandrovillegas/nodejsIOT#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.4"
+  }
+}
